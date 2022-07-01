@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cuprum&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="video_car.css">
+    <title>lesnoe</title>
+</head>
+<body>
+    <div class="wrapper">
+    <header class="header">
+        <div class="menu-burger__header">
+            <span></span>
+        </div>
+        <div class="header__container _container">
+            <nav class="header__menu menu">
+                <div class="header__logo">
+                    <img class="img__logo" src="./image/logo.png">
+                </div>
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a  class="menu__link">ОБ ОТЕЛЕ</a>
+                    </li>
+                    <li class="menu__item">
+                        <a  class="menu__link">НОМЕРА И ЦЕНЫ</a>
+                    </li>
+                    <li class="menu__item">
+                        <a  class="menu__link">МЕРОПРИЯТИЯ</a>
+                    </li>
+                    <li class="menu__item">
+                        <a  class="menu__link">КОНТАКТЫ</a>
+                    </li>
+                    <li class="menu__item">
+                        <a  class="menu__link">+ 7 (495) 005-61-59</a>
+                    </li>
+                </ul>
+            </nav>
+            </div>
+        </header>
+    <div id="myContainer">
+    <div class="fon-video-1 section section_1 main__section main__current">
+    <div class="fog"><img src="./image/фон.jpg" alt=""><div></div></div>
+    <canvas id="myCanvas" height="200" width="800"></canvas>
+    <video class="deer" autoplay muted loop src="./video/лесное.mp4">
+    </video>
+            <svg width="0" height="0">
+                    <clipPath id='clip'>
+                    <path d="M879.8,797.3c8.29,15.67-4.79,26.09-8.35,31,2.84,10.72-2.08,16.76-8.28,16.77-13,51.09-83.44,38.48-110.48,
+                    35.43-74.56,18.58-155,11.27-155,11.27s-3.32,16.5-13.41,24.69c-16.87,33-3.89,69-3.94,107.82,18.93,75.1-39,87.5-39,
+                    87.5s-17.76,19.41-33.23,20.25c-8.6.47-119.18,6.66-188.54-44.11-55.34-40.51-73.28-138.21-73.68-151.14-.9-29.15,
+                    22.53-34,42.89-72.92s72.51-185,82.05-204c-9.34-3.28-27.12-28-59.53-61.19s-35.21-60.51-44-88.57c5.13-21.94,
+                    33.07-6.18,52,3.76,21.58-15.77,67,18.79,67,18.79L435.72,544a179.84,179.84,0,0,0-27.35-27.38c-100.49-38-100.11-77.92-105.66-88-5.11-2.61-20.79-13.85-44-32.21s-90.89-19.19-144.27-22.55c-44.33,
+                    7.88-64.81,7.28-83.13,5.91S4.06,397.49.76,390.44c-4.16-19.05,18.39-28.11,18.77-56.36-.1-17.85-13.27-62.61-4.83-69.78,
+                    2.86-2.28,29.5,64.94,29.5,64.94s.54,9.92,41.3,1.08C134,314,108,269.13,108,269.13s-.62,1.94-6.43-12.35S78.34,231,57.07,
+                    227.8c-20.87-1-47.19-16.64-47.19-16.64l-4.83-6.44,5.9-8.59s18.8,9.47,32.72,9.66,41.17-11.72,58.45-19.32c15.95-13.09,24.29-43,
+                    31.11-67.1,18.77-59.68,25.87-65.65,30-70.85s15-23,24.13-24.69c5.72,7.62-13,33.8-20.38,58s3.91,91.62,4.83,98.23,3.93,11.45,18.23,
+                    27.37,28.71,7.46,36.47,3.22,8.42-15.94,10.19-19.86,7.24-6.09,13.95-26.84c3.05-23-12.72-45.26-17.17-48.84-67.79-29.53-53.89-53.51-51-54.75s25.31,
+                    19.58,37.55,25.23c-7.19-4.28-7.11-11.49-8.05-18.26s6.44-3.75,6.44-3.75,2.59,5.56,8.58,17.71,24.42,14.66,30.57,14.49,18.72-17,26.28-25.76,19.7-38.18,
+                    23.6-44.55,6.66-10.13,9.11-17.18c8-8,13.41,2.15,13.41,2.15s2.51-4.68,5.37-9.13c10.13-4.45,8,7,8,7s-30.14,61-34.32,81.59c-1,16.24-8,136.87-8,136.87s-.67,
+                    27-3.75,49.39c1.68,14.47,5.8,36.23,30.57,44,25.88,0,34-109.07,39.69-131s16.36-57.61,18.23-66S387,93,392.28,92.53s4.6,12.12,5.36,26.84c2.93,15.41-3,40.6-5.36,47.24-1.2,
+                    5.09-6.78,66.15-9.66,85.34-.54,21-9.47,66.23-11.26,78.91s-9.1,62.92-10.73,82.12c13.68,8.7,46.15,16.32,64.9,2.68,15.75-7.8,33.6-57.36,37-66.56s10-33.07,17.16-41.86c10.55,
+                    13.55.86,56.32-12.34,88-11.2,26.93-25.11,44.07-29.49,47.77-1.78,11.73,15.6,32,22.52,40.26,8.65-1.05,64.15-40.45,71.33-45.09S540.54,423,543,423.72c7.18,32.08-52,73.53-52,
+                    73.53s43.33,14.15,68.11,19.86c25.38-2.17,83.06-24.87,90.65-29s3.88-32,3.21-49.38-9.53-23.56-15-25.77-7.26-8.15.54-7.51c29,.35,34,46,36.47,58,3.16-7,15.17-43.15,
+                    15.55-55.29s4.46-9.35,6.44-3.76c11.94,57.19-9.49,84.65-27.35,100.38-15.9,35.5-58.09,49.79-65.43,52.6,9,2.86,46.94,50.29,53.09,57.43,14.78,5.2,74.23,66.8,82.06,
+                    73.54S802.66,738.7,816,750.6c13.28,4.88,42.56,29.49,48.27,33.28C870.47,784.85,877.2,793.1,879.8,797.3Z"/>
+                    </clipPath> 
+                </svg>
+            
+            <div class="lesnoe">
+        <div class="lesnoe__container _container">
+            <nav class="lesnoe__block block">
+                <div class="header__logo">
+                    <img class="img__logo_sec" src="./image/logo.png">
+                </div>
+            <div class="block-text">
+            <div class="main-block__text">ОТЕЛЬ-ЗАПОВЕДНИК</div>
+            <div class="main-block__ltext"><img class="L" src="./image/L.png" alt=""><img class="esnoe" src="./image/esnoe.png" alt=""></div>
+            <div class="main-block__ktext">ПРЕМИАЛЬНЫЙ ОТДЫХ В ПОДМОСКОВЬЕ</div>
+            <div class="main-block_ztext">
+                <div class="price-per-day">
+                    <div class="ot">от</div>
+                    <div class="money">5 500 Р</div>
+                    <div class="day">в сутки</div>
+                </div>
+                <div class="opisanie">4х разовое питание и all inclusive.
+                 Собственное подсобное хозяйство, бассейн, баня, конный двор и контактный зоопарк.              
+                </div>
+            </div>
+        </div>
+        </nav>
+        </div>
+        </div>
+        
+        <div class="border">
+        <img class="upper" src="./image/рамкаверх.png" alt="">
+        <div class="bron">
+            <div class="bron__container">
+                <nav class="bron__block block">
+                    <ul class="menu-second__list">
+                        <li class="menu-second__item">
+                            <a  class="menu-second__link">БРОНИРОВАНИЕ НОМЕРОВ</a>
+                        </li>
+                        <li class="menu-second__item">
+                            <div class="zdate">
+                                <img src="./image/small-calendar.png" alt="">
+                                <div class="txt">
+                                    Заезд<p>04.03.2019</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="menu-second__item">
+                            <div class="zdate">
+                                <img src="./image/small-calendar.png" alt="">
+                                <div class="txt">
+                                    Выезд<p>04.03.2019</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="menu-second__item">
+                            <div class="zdate_user">
+                                <img class="user" src="./image/user-2.png" alt="">
+                                <div class="txt">
+                                    Гости<p>1</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="menu-second__item">
+                            <a href="#" class="btn">Найти номер</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <img class="lower" src="./image/рамканиз.png" alt="">
+        </div>
+    </div>
+ 
+    <main class="page section section_2 main__section main__next">
+        <div class="page__main-block main-block">
+            <div class="main-block__container _container">
+                <div class="main-block__text_sec"><div class="nomernoy">НОМЕРНОЙ ФОНД</div><img src="./image/border2.png" alt="" class="border2"></div>
+            </div>
+         </div>
+        <div class="page__main-block-sec main-block">
+                <div class="main-block__container-sec">
+                    <div class="main-block_img spawn">
+                    <div class="info_block">
+                        <div class="txt_info">
+                            <div class="name">СТАНДАРТ</div>
+                            <div class="op">Небольшой уютный номер 22м² квадратных метра, есть варианты с одной
+                                двухспальной кроватью или с двумя односпальными кроватями.
+                            </div>
+                        </div>
+                        <div class="price_block">
+                            <div class="perday">
+                                <div class="ot">от</div>
+                                <div class="k">5 500 Р</div>
+                                <div class="day">в сутки</div>
+                            </div>
+                            <div class="checkroom">Посмотреть номер</div>
+                        </div>
+                    </div>
+                    </div>
+                <div class="main-block_img spawn">
+                    <div class="info_block">
+                        <div class="txt_info">
+                            <div class="name">СТАНДАРТ ПЛЮС</div>
+                            <div class="op">Просторный уютный номер 28м², есть варианты с одной
+                                двухспальной кроватью или с двумя односпальными кроватями.
+                            </div>
+                        </div>
+                        <div class="price_block">
+                            <div class="perday">
+                                <div class="ot">от</div>
+                                <div class="k">6 000 Р</div>
+                                <div class="day">в сутки</div>
+                            </div>
+                            <div class="checkroom">Посмотреть номер</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-block_img spawn">
+                    <div class="info_block">
+                        <div class="txt_info">
+                            <div class="name">ЛЮКС</div>
+                            <div class="op">Просторные апартаменты повышенной комфортности площадью 50м^2,
+                                есть варианты с душевой кабиной либо с ванной.
+                            </div>
+                        </div>
+                        <div class="price_block">
+                            <div class="perday">
+                                <div class="ot">от</div>
+                                <div class="k">7 500 Р</div>
+                                <div class="day">в сутки</div>
+                            </div>
+                            <div class="checkroom">Посмотреть номер</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+        <main class="page section section_3 main__section main__next">
+        <div class="carusel_block">
+        <div class="container">
+            <input type="radio" name="slider" id="item-1" checked>
+            <input type="radio" name="slider" id="item-2">
+            <input type="radio" name="slider" id="item-3">
+          <div class="cards">
+            <label class="card" for="item-1" id="img_1">
+                <div class="cont">
+                    <img src="./image/super-luks-small.png">
+                    <div class="cont-info">
+                        <h2>ЛЮКС СУПЕРИОР</h2>
+                        <p>
+                            Роскошные двухкомнатные апартаменты повышенной комфортсности
+                            площадью 55м², с ванной и электрокамином.
+                        </p>
+                        <ul>
+                            <li>Количество комнат в номере: 2.</li>
+                            <li>Количество основных мест в номере: 4.</li>
+                            <li>Количество дополнительных мест: 1.</li>
+                            <li>Площадь номера: 55 м².</li>
+                            <li>Всего номеров: 4.</li>
+                        </ul>
+                        <div class="carousel_price">
+                            <div class="cp_ot">от</div>
+                            <div class="cp_money">9 550 Р</div>
+                            <div class="cp_perday">в сутки</div>
+                        </div>
+                        <a href="" class="btn-sec">Посмотреть номер</a>
+                    </div>
+                    
+                </div>
+              
+            </label>
+            <label class="card" for="item-2" id="img_2">
+              <div class="cont">
+                <img src="./image/gostynay-villa.png">
+                <div class="cont-info">
+                    <h2>КОТТЕДЖ</h2>
+                    <p>
+                        Уютный 2-х уровневый коттедж для компании
+                        отдыхающих (12-16 человек). Большой холл,
+                        роскошная гостиная для дружеский посиделок,
+                        полностью оборудованная, своя зона
+                        барбекю.
+                    </p>
+                    <ul>
+                        <li>Количество комнат: 7.</li>
+                        <li>Количество туалетных комнат: 4.</li>
+                        <li>Количество душевых кабин: 4 + ванная.</li>
+                        <li>Общая площадь коттеджа: 288 м².</li>
+                    </ul>
+                    <div class="carousel_price">
+                        <div class="cp_ot">от</div>
+                        <div class="cp_money">28 000 Р</div>
+                        <div class="cp_perday">в сутки</div>
+                    </div>
+                    <a href="" class="btn-sec">Посмотреть номер</a>
+                </div>
+            </div>
+            </label>
+            <label class="card" for="item-3" id="img_3">
+              <div class="cont">
+                <img src="./image/IMG_7894.png">
+                <div class="cont-info">
+                    <h2 class="cotage">КОТТЕДЖ</h2>
+                    <p>
+                        Уютный 2-х уровневый коттедж для компании
+                        отдыхающих (12-16 человек). Большой холл,
+                        роскошная гостиная для дружеский посиделок,
+                        полностью оборудованная, своя зона
+                        барбекю.
+                    </p>
+                    <ul>
+                        <li class="ul_info">Количество комнат: 7.</li>
+                        <li class="ul_info">Количество туалетных комнат: 4.</li>
+                        <li class="ul_info">Количество душевых кабин: 4 + ванная.</li>
+                        <li class="ul_info">Общая площадь коттеджа: 288 м².</li>
+                    </ul>
+                    <div class="carousel_price">
+                        <div class="cp_ot">от</div>
+                        <div class="cp_money">28 000 Р</div>
+                        <div class="cp_perday">в сутки</div>
+                    </div>
+                    <a href="" class="btn-sec">Посмотреть номер</a>
+                </div>
+            </div>
+            </label>
+          </div>
+          
+        </div>
+    </div>
+</main>
+
+  <main class="page section section_4 main__section main__next">
+    <div class="page__main-block-third main-block ">
+        <img class="fasad" src="./image/fasad.jpg" alt="">
+        <img src="./image/deerpng.png" alt="" class="welc_deer">
+        <div class="main-block__container-third _container">
+            <div class="welcome-block">
+                <img src="./image/bord4.png" alt="" class="border4_1">
+                <div class="wb-cont">
+                <p>
+                    <h1 class="welcome-tag">ДОБРО ПОЖАЛОВАТЬ</h1>
+                </p>
+                <p>
+                    <h1 class="welcome-tag2">В ОТЕЛЬ-ЗАПОВЕДНИК "Лесное"</h1>
+                </p>
+                <p class="p1">
+                    Отель-заповедник "Лесное" - прекрасное место для
+                    настоящих ценителей крисатльно свежего воздуха
+                    и живописных красос настоящей Русской природы.
+                    В нашем отеле вас ждут светлые и уютные
+                    с замечательным видом на живой хвойный лес,
+                    высокий уровень обслуживания и развлечения
+                    на любой вкус.
+                </p>
+                <p class="p2">
+                    Общая территория отеля "Лесное" - 682 гектара,
+                    куда входят: луга, лесной массив и 11 природных
+                    озер, 89 просторных и светлых номеров категорий
+                    стандарт, люкс, коттедж и VIP вилла.
+                </p>
+                <p class="p3">
+                    Ресторан на 250 персон, в котором вы сможете
+                    по достоинству оценить русскую, итальянсукю,
+                    кавказскую, франзузскую и европейскую кухни.
+                    Наши повара используют только самые свежие
+                    продукты, которые поставляются из собственного
+                    подсобного хозяйства.
+                </p>
+                <div class="btn-third">Обзор территории</div>
+                </div>
+                <img src="./image/bord4flip.png" alt="" class="border4">
+            </div>
+            </div>
+            </div>
+</main>
+<main class="page section section_5 main__section main__next">
+    <div class="page__main-block-third main-block ">
+        <div class="main-block__container-fourth _container">
+            <div class="videoname">ВИДЕО ОБ ОТЕЛЕ</div>
+            <img src="./image/border2.png" alt="" class="border2">
+            <div class="video-block">
+                <section>
+                    <div class="container_2">
+                        <div class="carousel_2">
+                            <input type="radio" name="slides" checked="checked" id="slide-1">
+                            <input type="radio" name="slides" id="slide-2">
+                            <input type="radio" name="slides" id="slide-3">
+                            <input type="radio" name="slides" id="slide-4">
+                            <ul class="carousel__slides">
+                                <li class="carousel__slide">
+                                    <figure>
+                                        <div>
+                                            <video src="./video/лесное.mp4" autoplay muted loop class="video_car"></video>
+                                        </div>
+                                    </figure>
+                                </li>
+                                <li class="carousel__slide">
+                                    <figure>
+                                        <div>
+                                            <video src="./video/лесное.mp4" autoplay muted loop class="video_car"></video>
+                                        </div>
+                                        
+                                    </figure>
+                                </li>
+                                <li class="carousel__slide">
+                                    <figure>
+                                        <div>
+                                            <video src="./video/лесное.mp4" autoplay muted loop class="video_car"></video>
+                                        </div>
+                                       
+                                    </figure>
+                                </li>
+                                <li class="carousel__slide">
+                                    <figure>
+                                        <div>
+                                            <video src="./video/лесное.mp4" autoplay muted loop class="video_car"></video>
+                                        </div>
+                                        
+                                    </figure>
+                                </li>
+                            </ul>  
+                            <ul class="carousel__thumbnails">
+                                
+                                <li>
+                                    <label class="label_img" for="slide-1"><img src="./image/fasad-restoran-450x400.png" alt="">
+                                        </label>
+                                    <div class="underlabel">Новый год 2019</div>
+                                </li>
+                                <li>
+                                    <label class="label_img" for="slide-2"><img src="./image/fasad-restoran-450x400.png" alt=""></label>
+                                    <div class="underlabel">Лето в «Лесном» </div>
+                                </li>
+                                <li>
+                                    <label class="label_img" for="slide-3"><img src="./image/fasad-restoran-450x400.png" alt=""></label>
+                                    <div class="underlabel">Осень - пора свадьб</div>
+                                </li>
+                               
+                            </ul>
+                        </div>
+                        <img src="./image/bordervid.png" alt="" class="bordervid">
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</main>
+<main class="page section section_6 main__section main__next">
+    <div class="page__main-block-fourth main-block ">
+        <div class="main-block__container-fifth _container">
+            <div class="iventname">КАЛЕНДАРЬ СОБЫТИЙ</div>
+            <img src="./image/border2.png" alt="" class="border2">
+            <div class="ivent_block" id="ivent_block">
+                <div class="ivent_block_cont">
+                    <img src="./image/eightofmarch.jpg" alt="">
+                    <div class="date_num">7-10</div>
+                    <div class="mounth">марта</div>
+                    <div class="ivent">«МЕЖДУНАРОДНЫЙ ЖЕНСКИЙ ДЕНЬ»</div>
+                </div>
+                <div class="ivent_block_cont">
+                    <img src="./image/kanikuli.jpg" alt="">
+                    <div class="date_num">22-31</div>
+                    <div class="mounth">марта</div>
+                    <div class="ivent">«ДЕТСКИЕ КАНИКУЛЫ»</div>
+                </div>
+                <div class="ivent_block_cont">
+                    <img src="./image/meet.jpg" alt="">
+                    <div class="date_num">15-21</div>
+                    <div class="mounth">апреля</div>
+                    <div class="ivent">«BBQ PARTY» - ДЕЛАЕМ САМЫЙ БОЛЬШОЙ СТЕЙК</div>
+                </div>
+                <div class="ivent_block_cont">
+                    <img src="./image/9_maya_novosti_zeotek.jpg" alt="">
+                    <div class="date_num">9</div>
+                    <div class="mounth">мая</div>
+                    <div class="ivent">«ДЕНЬ ПОБЕДЫ»</div>
+                </div>
+                <div class="ivent_block_cont">
+                    <img src="./image/airdragon.jpg" alt="">
+                    <div class="date_num">5-10</div>
+                    <div class="mounth">июня</div>
+                    <div class="ivent">ДЕНЬ ЛЕТА, ЗАПУСКАЕМ ВОЗДУШНЫХ ЗМЕЕВ</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<main class="page section section_7 main__section main__next">
+    <div class="page__main-block-fifth main-block ">
+        <div class="main-block__container-six">
+            <div class="wayname">КАК ДОБРАТЬСЯ ДО ОТЕЛЯ</div>
+            <img src="./image/border2.png" alt="" class="border2">
+            <div class="way_block">
+                <div class="way_info_block">
+                    <div class="transport">
+                        <img class="transp" src="./image/car.png" alt="">
+                        <div class="transport_text">
+                            <div class="na_avto">НА АВТОМОБИЛЕ:</div>
+                            <div class="guide">Двигайтесь 110 км по Киевскому шоссе от МКАД
+                                               в сторону Калуги, далее съезд направо перед
+                                               участком платной дороги в сторону село
+                                               Недельное 26 км.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="transport">
+                        <img class="transp" src="./image/train.png" alt="">
+                        <div class="transport_text">
+                            <div class="na_avto">ОБЩЕСТВЕННЫМ ТРАНСПОРТОМ:</div>
+                            <div class="guide">от Киевского вокзала на комфортабельном
+                                               экспрессе до станции Малоярославец, далее от
+                                               жд станции на такси до отеля.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border_footer">
+                        <div class="footer_info">
+                            <div class="contact_name">КОНТАКТЫ</div>
+                            <div class="contacts">
+                                <div class="number_mail_ect">
+                                    <div class="images">
+                                        <img src="./image/phone.png" alt="" class="micro">
+                                        <img src="./image/email.png" alt="" class="micro">
+                                        <img src="./image/ping.png" alt="" class="micro">
+                                    </div>
+                                    <div class="fuller">
+                                        <div class="text_cont">+7 495 005 61 59</div>
+                                        <div class="text_cont">info@lesnoe.ru</div>
+                                        <div class="text_cont">249073, Калужская обл, село Недельное</div>
+                                    </div>
+                                </div>
+                                <div class="soc">
+                                    <div class="soc_text">Социальные сети</div>
+                                    <div class="soc_imges">
+                                        <img src="./image/vk.png" alt="" class="soc_img">
+                                        <img src="./image/facebook.png" alt="" class="soc_img">
+                                        <img src="./image/youtube.png" alt="" class="soc_img">
+                                        <img src="./image/insta.png" alt="" class="soc_img">
+                                        <img src="./image/ok.png" alt="" class="soc_img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="map_wrapper"><img src="./image/map.png" alt="" class="map"></div>
+                
+            </div>
+        </div>
+    </div>
+</main>
+</div> 
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="./js/burger.js"></script>
+<script src="./js/scroll.js"></script>
+<script src="./js/hover.js"></script>
+<script src="./js/smoke.js"></script>
+<script src="./js/resize.js"></script>
+</body>
+</html>
